@@ -1,0 +1,48 @@
+body{
+  background-color: #f6f5f6;;
+}
+.App{
+  
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  border-radius: 10px 10px 0 0;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+.nav-bottom { 
+  margin-top: 5px;
+  padding: 4px 0 4px 0;   
+  background-color: #f6f5f6;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+display: flex;
+justify-content: space-around;
+-webkit-box-shadow: rgb(213 212 212 / 80%) 0px 0 10px;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  box-shadow: rgb(213 212 212 / 80%) 0 0 10px;
+}
