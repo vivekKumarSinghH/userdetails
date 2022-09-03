@@ -1,0 +1,76 @@
+body {
+  background-color: #f6f5f6;
+  ;
+}
+
+.App {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3%;
+
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
+
+  border-radius: 10px 10px 0 0;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.pageButton {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  width: 12rem;
+  padding: 5px 0 5px 0px;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  width: 12rem;
+  padding: 5px 0 5px 0px;
+}
+
+button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.nav-bottom {
+
+  margin-top: 5px;
+  padding: 4px 0 4px 0;
+  background-color: #f6f5f6;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-shadow: rgb(213 212 212 / 80%) 0px 0 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+  box-shadow: rgb(213 212 212 / 80%) 0 0 10px;
+}
